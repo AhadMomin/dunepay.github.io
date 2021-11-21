@@ -684,14 +684,14 @@ input[type="radio"] {
       width: 1.65em; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    background: #1cb495;
-    border-color: #1cb495;
+    background: #f8bd1b;
+    border-color: #ffc31f;
     color: #ffffff;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #1cb495;
-    box-shadow: 0 0 0 2px #1cb495; }
+    border-color: #fabb0f;
+    box-shadow: 0 0 0 2px #fabd15; }
 
 input[type="checkbox"] + label:before {
   border-radius: 6px; }
