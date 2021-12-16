@@ -36,8 +36,8 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/Dune Pitch Deck 2.png': 'center',
-							'images/Dune Pitch Deck.png': 'center'
+							'images/screen0.png': 'left',
+							// 'images/Dune Pitch Deck.png': 'left'
 							
 						},
 
@@ -72,35 +72,13 @@
 				}
 
 			// Main loop.
-				$bgs[pos].classList.add('visible');
+				// $bgs[pos].classList.add('visible');
 				$bgs[pos].classList.add('top');
 
 				// Bail if we only have a single BG or the client doesn't support transitions.
-					if ($bgs.length == 1
-					||	!canUse('transition'))
-						return;
-
-				window.setInterval(function() {
-
-					lastPos = pos;
-					pos++;
-
-					// Wrap to beginning if necessary.
-						if (pos >= $bgs.length)
-							pos = 0;
-
-					// Swap top images.
-						$bgs[lastPos].classList.remove('top');
-						$bgs[pos].classList.add('visible');
-						$bgs[pos].classList.add('top');
-
-					// Hide last image after a short delay.
-						window.setTimeout(function() {
-							$bgs[lastPos].classList.remove('visible');
-						}, settings.delay / 2);
-
-				}, settings.delay);
-
+					// if ($bgs.length == 1
+					// ||	!canUse('Bail'))
+					// 	return;
 		})();
 
 	// Signup Form.
