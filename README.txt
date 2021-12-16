@@ -6,3 +6,4 @@ Cofounders: Alim Marediya & Ahad Momin
 https://innovation.utdallas.edu/cometx/
 
 Sign up for Beta Testing!
+![Preview](https://github.com/dunepay/dunepay.github.io/blob/main/images/Holding-Hand-Smart-Phone-Mockup.png)
