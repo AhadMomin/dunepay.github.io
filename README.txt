@@ -7,4 +7,4 @@ https://innovation.utdallas.edu/cometx/
 
 Sign up for Beta Testing!
 
-![](Holding-Hand-Smart-Phone.png)
+![Preview](Holding-Hand-Smart-Phone.png)
