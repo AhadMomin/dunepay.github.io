@@ -6,4 +6,5 @@ Cofounders: Alim Marediya & Ahad Momin
 https://innovation.utdallas.edu/cometx/
 
 Sign up for Beta Testing!
-![](images/Holding-Hand-Smart-Phone.png)
+
+![](images\Holding-Hand-Smart-Phone.png)
